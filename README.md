@@ -1,7 +1,7 @@
 # ADCS-Software
 Attitude Determination and Control Subsystem (ADCS) of EUS-1
 Design and Implementation of ADCS SW subsystem of Egyptian Universities Satellite (EUS-1) 
-The Project is a part of the Egyptian Universities Satellite Program provided by Egyptian Space Agency (EgSA)
+The Project is a part of the Egyptian Universities Satellite Program provided by Egyptian Space Agency (EgSA).
 It was done as The Graduation Project for Aerospace Department Students at Faculty of Engineering, Cairo University
 By: Samir Samy / Mohammed Karam / Eman Ahmed / Ahmed Moussa / Ommar Hisham / Abdalla Gamal / Ammar Magdy
 Undersupervision of : Dr. Mohammed Lotfy
