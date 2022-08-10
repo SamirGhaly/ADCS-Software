@@ -13,5 +13,5 @@ The software was designed to be suitable for application on any Satellite at any
 4- Calculating PD Controller Gains was done using the method introduced in this paper: https://www.researchgate.net/publication/243772429_Quaternion_feedback_regulator_for_spacecraft_eigenaxis_rotation\
 
 
-Note: the matlab files included needs to be merged for the code to run properly, I categorized the files for easier searching./
-The Software was converted to simulink for better scalability, editability and optimization.
+Note: the matlab files included needs to be merged for the code to run properly, I categorized the files for easier searching.\
+The Software was converted to simulink for better scalability, editability and optimization. The simulink model is found in rar format.
