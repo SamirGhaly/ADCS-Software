@@ -1,11 +1,9 @@
-function [u_o,v_o,w_o] =I2O(u_I,v_I,w_I,beta0,w0,t) %Earth Inertial to Orbital
+function [q_O_I]=I2O(r,v)
+k_=-r/norm(r);
+j_=cross(v,r)/norm(cross(v,r));
+i_=cross(j_,k_);
 
-beta=beta0+w0*t;
-%beta is latitude position of satalite
-%t 
-I2O = [cosd(beta) 0 -sind(beta);
-          0      -1  0;
-       -sind(beta) 0  cosd(beta)];
-V_o=I2O*[u_I,v_I,w_I];
-u_o=V_o(1);v_o=V_o(2);w_o=V_o(3);
+%quaternion from Inertial to Orbit
+dcm_i2o=([i_';j_';k_']);
+q_O_I=dcm2quat(dcm_i2o); 
 end
